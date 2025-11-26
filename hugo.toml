@@ -1,0 +1,51 @@
+baseURL = 'https://ranjithsiji.github.io/wikimedians-kerala-website/'
+languageCode = 'en-us'
+title = 'Wikimedians of Kerala User Group'
+theme = ''
+
+[params]
+  description = 'Official website of Wikimedians of Kerala User Group'
+  author = 'Wikimedians of Kerala'
+  email = 'wikikerala@gmail.com'
+  facebook = 'https://www.facebook.com/WikimediansKL'
+  twitter = 'https://twitter.com/WikimediansKL'
+  instagram = 'https://www.instagram.com/wikimedians_kerala/'
+  
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 2
+  [[menu.main]]
+    name = 'Projects'
+    url = '/projects/'
+    weight = 3
+  [[menu.main]]
+    name = 'Community'
+    url = '/community/'
+    weight = 4
+  [[menu.main]]
+    name = 'Activities'
+    url = '/activities/'
+    weight = 5
+  [[menu.main]]
+    name = 'Blog'
+    url = '/blog/'
+    weight = 6
+  [[menu.main]]
+    name = 'Contact'
+    url = '/contact/'
+    weight = 7
+
+[outputs]
+  home = ['HTML', 'RSS']
+  page = ['HTML']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
