@@ -1,0 +1,33 @@
+<footer class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <h5 class="mb-3">Wikimedians of Kerala</h5>
+                <p>A community of Wikimedia contributors from Kerala, India, working together to promote free knowledge.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5 class="mb-3">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="/about/" class="text-white-50 text-decoration-none">About Us</a></li>
+                    <li><a href="/projects/" class="text-white-50 text-decoration-none">Projects</a></li>
+                    <li><a href="/community/" class="text-white-50 text-decoration-none">Community</a></li>
+                    <li><a href="/activities/" class="text-white-50 text-decoration-none">Activities</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5 class="mb-3">Connect With Us</h5>
+                <div class="social-links">
+                    <a href="{{ .Site.Params.facebook }}" class="text-white me-3" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="{{ .Site.Params.twitter }}" class="text-white me-3" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="{{ .Site.Params.instagram }}" class="text-white me-3" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr class="bg-white">
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="mb-0">&copy; {{ now.Year }} Wikimedians of Kerala User Group. Licensed under CC BY-SA 4.0</p>
+            </div>
+        </div>
+    </div>
+</footer>
